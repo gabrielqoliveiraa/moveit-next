@@ -1,14 +1,21 @@
 import '../styles/global.css';
 
-import { ChallengesContext, ChallengesProvider } from '../contexts/ChallengesContext'
-import { CountdownProvider } from '../contexts/CountdownContext'
+
+
+import React, { useContext } from 'react';
+
+
 
 
 function MyApp({ Component, pageProps }) {
+
+
+
   return (
 
-      
-    <Component {...pageProps} />
+    <Component {...pageProps}> </Component>
+
+
 
       
   )

@@ -1,3 +1,5 @@
+
+
 .container {
     height: 100vh;
     max-width: 992px;
@@ -10,6 +12,43 @@
 
 .container section {
     flex:1;
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    align-content: center;
+    
+}
+
+.Button{
+    margin-top: 1.5rem;
+    height: 1.5rem;
+    width: 50%;
+    margin-left: 25%;
+    background: var(--blueDark);
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+}
+
+
+
+
+.dark {
+    height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dark section {
+    flex:1;
+    
 
     display: grid;
     grid-template-columns: 1fr 1fr;

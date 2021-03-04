@@ -25,11 +25,11 @@
 }
 
 .countdownContainer > div span:first-child {
-    border-right: 1px solid #f0f1f3;
+    border-right: 1px solid var(--white);
 }
 
 .countdownContainer > div span:lastt-child {
-    border-left: 1px solid #f0f1f3;
+    border-left: 1px solid var(--white);
 }
 
 .countdownContainer > span {
@@ -46,7 +46,7 @@
     margin-top: 2rem;
     width: 100%;
     height: 5rem;
-    color: var(--white);
+    color: white;
     background-color: var(--blue);
 
 
@@ -60,22 +60,23 @@
 }
 
 .CountdownButton:not(:disabled):hover{
-    background: var(--blue-dark)
+    background: var(--blueDark);
+    color: var(--blueDark)
 }
 
 .countdownButtonActive {
     background: var(--white);
-    color: var(--title);
+    color: var(--blueDark);
 }
 
 
 .countdownButtonActive:not(:disabled):hover{
     background: var(--red);
-    color: var(--white);
+    color: white;
 }
 
 
 .CountdownButton:disabled {
     background: var(--white);
-    color: var(--text);
+    color: var(--blueDark);
 }
