@@ -1,16 +1,12 @@
 
 <h1 align="center">
-<br>
-  <img src="https://svgshare.com/i/UnU.svg" alt="InstaDog" width="120">
-
 
 <br>
-<br>
-InstaDog
+MoveIT
 </h1>
 
 
-<p align="center">Uma rede social feita para cachorros</p>
+<p align="center">Uma aplicação que usa como base o método pomodoro e conta com alguns desafios que auxiliam o usuário a continuar.</p>
 
 
 
@@ -22,25 +18,21 @@ InstaDog
 </p>
 
 <div align="center">
-  <img src="./src/Assets/captured.gif" alt="demo-web" height="425">
+  <img src="https://i.ibb.co/MkgLDYs/Screenshot.png" height="425">
 
-  <img src="./src/Assets/captured%20(1).gif?raw=true" alt="demo-web" height="425">
+  <img src="https://i.ibb.co/XxKHYBy/Screenshot-1.png" alt="demo-web" height="425">
 
 
-Usuário Padrão
-<br>
-Login: dog
-<br>
-Password: dog
 
 </div>
 
 <hr />
 
 ## Features
-- <a href='https://instadog-coral.vercel.app/'>Link do Projeto</a>
+- <a href='https://moveit-next-cyan-theta.vercel.app/'>Link do Projeto</a>
 
 - ⚛️ **React Js** 
+- 🎨 **Next js**
 
 
 ## Others
@@ -48,8 +40,6 @@ Password: dog
  - 💅 **CSS Modules** 
 
 
-
- [Ler mais]: https://github.com/gabrielqoliveiraa
 
 ## Getting started
 
