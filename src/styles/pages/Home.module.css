@@ -12,14 +12,14 @@
 
 .container section {
     flex:1;
-    
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
     align-content: center;
-    
 }
+    
+
+    
 
 .Button{
     margin-top: 1.5rem;
@@ -55,4 +55,12 @@
     gap: 6.25rem;
     align-content: center;
     
+}
+
+@media (max-width: 55rem){
+    .container section{
+        grid-template-columns: 1fr;
+        margin-top: 3rem;
+        padding-bottom: 3rem;
+    }
 }
