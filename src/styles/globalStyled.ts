@@ -7,6 +7,7 @@ export default createGlobalStyle`
   box-sizing: border-box;
   
 }
+
 :root {
   --white: ${props=>props.theme.colors.white};
   --background: ${props=>props.theme.colors.background};

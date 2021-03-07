@@ -1,6 +1,3 @@
-import '../styles/global.css';
-
-
 
 import React, { useContext } from 'react';
 
