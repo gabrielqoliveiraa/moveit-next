@@ -2,7 +2,6 @@ import styles from "../styles/components/SideBar.module.css";
 import { signOut } from "next-auth/client";
 import { BsHouseDoor } from "react-icons/bs";
 import { BiLogOut } from "react-icons/bi";
-import { IoMedalOutline } from "react-icons/io5";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
