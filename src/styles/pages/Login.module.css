@@ -1,0 +1,77 @@
+.container {
+
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #242222;
+    justify-content: center;
+}
+
+.LoginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+
+.LoginContainer h2 {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+  }
+
+  .LoginContainer p {
+      font-size: 1.2rem;
+      font-weight: 400;
+  }
+
+.githubLogin {
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    background: linear-gradient(
+      to right,
+      rgba(73, 83, 184, 0.8),
+      rgba(73, 83, 184, 0.3)
+    );
+    border: 0;
+    border-radius: 4px;
+  
+    margin-top: 30px;
+  
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+  
+    color: #fff;
+  }
+
+  .githubLogin span {
+    margin-left: 30px;
+  }
+  
+  .githubLogin div {
+    background-color: var(--green);
+    padding: 1rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin: 0;
+  }
+
+  @media (max-width: 1100px) {
+    .container {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .loginContainer {
+      padding-right: 0;
+    }
+  }

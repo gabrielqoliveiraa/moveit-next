@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 
-import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 import { Container } from './style';
+import { BsSun, BsMoon } from "react-icons/bs";
+
 
 interface HeaderProps {
   toggleTheme(): void;
@@ -16,16 +17,16 @@ export default function Header(props: HeaderProps) {
       <p>Move-It</p>
       <div>
         
-        <Switch
-          onChange={props.toggleTheme}
-          checked={title === 'dark'}
-          checkedIcon={false}
-          height={10}
-          width={40}
-          handleDiameter={20}
-          onColor={colors.background1}
-          offColor={colors.red}
-        />
+       
+
+        {title === 'dark' ? (
+          <BsSun style={{cursor: 'pointer'}} onClick={props.toggleTheme} color="#5965e0" size={28} />
+        ) : (
+          <BsMoon style={{cursor: 'pointer'}} onClick={props.toggleTheme} color="#5965e0" size={28} />
+        )}
+
+
+
       </div>
     </Container>
   );

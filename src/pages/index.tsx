@@ -24,10 +24,13 @@ import { GetServerSideProps} from 'next'
 import { CountdownProvider } from '../contexts/CountdownContext'
 import { ChallengesProvider } from '../contexts/ChallengesContext'
 
+import { useSession, session } from "next-auth/client";
+import { useRouter } from "next/router";
 
 
 
 import styles from '../styles/pages/Home.module.css'
+import Redirect from '../components/Redirect';
 
 
 interface HomeProps {
@@ -38,6 +41,14 @@ interface HomeProps {
 
 
 export default function Home(props: HomeProps) {
+  const [session]: any = useSession()
+
+  if(!session){
+    return <Redirect to='/login' />
+  }
+
+
+
   const [theme, setTheme] = useState(light);
 
   const toogleTheme = () => {
@@ -72,6 +83,7 @@ export default function Home(props: HomeProps) {
                 
 
                 <div>
+
                   <Profile/>
                   <CompletedChallenges/>
                   <Countdown/>
